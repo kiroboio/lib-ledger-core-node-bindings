@@ -25,7 +25,8 @@ if (!conf) {
   console.error(`Platform ${process.platform} is not supported`)
   process.exit(1)
 }
-const endpointURL = `https://s3-eu-west-1.amazonaws.com/ledger-lib-ledger-core/${libcoreVersion}/${
+// const endpointURL = `https://s3-eu-west-1.amazonaws.com/ledger-lib-ledger-core/${libcoreVersion}/${
+const endpointURL = `https://s3-eu-west-1.amazonaws.com/kiroboio-ledger-lib-ledger-core/${libcoreVersion}/${
   conf.dir
 }`
 
