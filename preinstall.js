@@ -26,7 +26,7 @@ if (!conf) {
   process.exit(1)
 }
 // const endpointURL = `https://s3-eu-west-1.amazonaws.com/ledger-lib-ledger-core/${libcoreVersion}/${
-   const endpointURL = `https://s3.eu-west-3.amazonaws.com/kiroboio-lib-ledger-core/${libcoreVersion}/${
+   const endpointURL = `https://kiroboio-ledger-lib-ledger-core.s3.eu-west-3.amazonaws.com/${libcoreVersion}/${
   conf.dir
 }`
 
